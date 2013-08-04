@@ -159,7 +159,7 @@ function apt-history(){
 
 function update-bashrc()
 {
-    CS_URL=https://s3.amazonaws.com/Filesync-Linux/.bashrc
+    CS_URL=https://raw.github.com/napalm255/bashrc/master/.bashrc
     CS_FILE=~/.bashrc.new
     CB_FILE=~/.bashrc.bak
     CR_FILE=~/.bashrc
